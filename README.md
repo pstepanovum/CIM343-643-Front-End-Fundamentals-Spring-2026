@@ -1,18 +1,20 @@
-# CIM343-643 FRONT END FUNDAMENTALS
+# CIM343-643 Front End Fundamentals
 
-**UNIVERSITY OF MIAMI**  
-**SCHOOL OF COMMUNICATION**  
-**SPRING 2026**
+**University of Miami**  
+**School of Communication**  
+**Spring 2026**
 
 ---
 
-### STUDENT INFORMATION
-**NAME:** PAVEL STEPANOV  
-**EMAIL:** pas273@miami.edu  
+### Student Information
 
-### INSTRUCTOR INFORMATION
-**INSTRUCTOR:** ZEVENSUY RODRIGUEZ  
-**EMAIL:** zevenrodriguez@miami.edu  
+**Name:** Pavel Stepanov  
+**Email:** pas273@miami.edu
+
+### Instructor Information
+
+**Instructor:** Zevensuy Rodriguez  
+**Email:** zevenrodriguez@miami.edu
 
 ---
 
@@ -24,28 +26,33 @@
 
 ---
 
-## COURSE DESCRIPTION
-THIS COURSE FOCUSES ON JOB-READY SKILLS AND PRODUCTION WORKFLOW TECHNIQUES IN HIGHEST DEMAND FOR FRONT-END WEB DEVELOPERS. STUDENTS LEARN, PRACTICE, AND DEMONSTRATE THE SKILLS AND PRINCIPLES NEEDED TO MAKE EFFECTIVE USE OF WEB TECHNOLOGIES.
+## Course Description
 
-## COURSE OBJECTIVES
-* **MATERIALIZE IDEAS AS INTERACTIVE WEBSITES**
-* **COLLABORATE WITH DEVELOPMENT TEAMS EFFICIENTLY**
-* **APPLY COMPUTATIONAL THINKING SKILLS TO OTHER FIELDS**
+**This course focuses on job-ready skills and production workflow techniques in highest demand for front-end web developers. Students will learn, practice, and demonstrate the skills and principles needed to make effective use of these technologies.**
 
-## GRADING BREAKDOWN
-* **PRACTICE:** 30%
-* **QUIZZES:** 10%
-* **MIDTERM PROJECT:** 25%
-* **FINAL PROJECT:** 30%
-* **CLASS PARTICIPATION:** 5%
+## Course Objectives
 
-## COURSE TOPICS
-* **ENVIRONMENT SETUP AND INTERNET ARCHITECTURE**
-* **HTML5 AND CSS3 FUNDAMENTALS**
-* **JAVASCRIPT BASICS AND DOM MANIPULATION**
-* **FUNCTIONS, ARRAYS, AND OBJECTS**
-* **JSON AND DATA VISUALIZATION (CHART.JS)**
-* **P5JS AND WEB FRAMEWORKS**
+- **Materialize ideas as interactive websites**
+- **Collaborate with development teams efficiently**
+- **Apply computational thinking skills to other fields**
 
-## LICENSE
-THIS PROJECT IS LICENSED UNDER THE MIT LICENSE. SEE THE [LICENSE](LICENSE) FILE FOR DETAILS.
+## Grading Breakdown
+
+- **Practice:** 30%
+- **Quizzes:** 10%
+- **Midterm Project:** 25%
+- **Final Project:** 30%
+- **Class Participation:** 5%
+
+## Weekly Curriculum
+
+- **Week 1-2:** Environment Setup, HTML5, and CSS3 Fundamentals
+- **Week 3-5:** JavaScript Basics, DOM Manipulation, and Functions
+- **Week 6-7:** Arrays, Objects, and JSON
+- **Week 9-10:** Data Visualization (Chart.js) and Canvas (P5js)
+- **Week 11-12:** Web Frameworks
+- **Week 13-16:** Final Project Development
+
+## License
+
+**This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.**
