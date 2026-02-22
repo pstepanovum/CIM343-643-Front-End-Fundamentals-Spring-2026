@@ -1,0 +1,398 @@
+/* ============================================
+   The Iceberg Adventure — Stylesheet
+   Author: Pavel Stepanov
+   ============================================ */
+
+/* --- Google Fonts (Custom Font Requirement) --- */
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito:wght@400;600;700&display=swap");
+
+/* --- CSS Variables --- */
+:root {
+  --sky-blue: #b8d9e8;
+  --mid-ocean: #5a9ebc;
+  --deep-water: #2e6b8a;
+  --snow-white: #f0f8ff;
+  --ice-mist: #d6eef5;
+  --ice-shadow: #a8cdd9;
+  --golden-sunrise: #f5dfa0;
+  --warm-amber: #eec97d;
+  --narwhal: #9bb8c4;
+  --seal-grey: #b0bec5;
+  --penguin-black: #1c1c2e;
+  --scarf-red: #d94f43;
+}
+
+/* ============================================
+   HTML TAG SELECTORS (Requirement: 2 tags)
+   ============================================ */
+
+/* Tag Selector 1: body */
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: var(--ice-mist);
+  color: var(--penguin-black);
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* Tag Selector 2: h1, h2, h3, h4 — display font */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bubblegum Sans", cursive;
+  color: var(--deep-water);
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 2.6rem;
+  color: var(--snow-white);
+  text-shadow: 2px 3px 0px var(--deep-water);
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 1.9rem;
+  border-bottom: 3px solid var(--mid-ocean);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--mid-ocean);
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: var(--narwhal);
+}
+
+/* Tag Selector 3: p */
+p {
+  font-size: 1.05rem;
+  color: #2a3a4a;
+  margin-bottom: 1rem;
+}
+
+/* Tag Selector 4: em */
+em {
+  color: var(--mid-ocean);
+  font-style: italic;
+}
+
+/* Tag Selector 5: strong */
+strong {
+  color: var(--deep-water);
+}
+
+/* Tag Selector 6: mark */
+mark {
+  background-color: var(--golden-sunrise);
+  color: var(--penguin-black);
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+/* Tag Selector 7: small */
+small {
+  color: var(--seal-grey);
+  font-size: 0.85rem;
+}
+
+/* Tag Selector 8: ol, ul */
+ul,
+ol {
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+/* Tag Selector 9: footer */
+footer {
+  background-color: var(--penguin-black);
+  color: var(--ice-mist);
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+/* Tag Selector 10: time, abbr */
+time,
+abbr {
+  color: var(--mid-ocean);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px dashed var(--mid-ocean);
+}
+
+/* ============================================
+   NAVIGATION — Grid + Link Styling
+   (Requirement: nav links, color, no underline, hover, grid)
+   ============================================ */
+
+nav {
+  background-color: var(--deep-water);
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(46, 107, 138, 0.4);
+}
+
+nav ul {
+  /* GRID 1 — Navigation Grid */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+/* Nav link styling: color, no underline */
+nav ul li a {
+  display: block;
+  color: var(--sky-blue); /* link color */
+  text-decoration: none; /* remove underline */
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 1.05rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+  letter-spacing: 0.3px;
+}
+
+/* a:hover effect */
+nav ul li a:hover {
+  background-color: var(--mid-ocean);
+  color: var(--snow-white);
+  border-radius: 4px;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+header {
+  background: linear-gradient(
+    160deg,
+    var(--deep-water) 0%,
+    var(--mid-ocean) 60%,
+    var(--sky-blue) 100%
+  );
+  padding: 3rem 2rem 2.5rem;
+  text-align: center;
+}
+
+header p {
+  color: var(--golden-sunrise);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* ============================================
+   MAIN LAYOUT
+   ============================================ */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  background-color: var(--snow-white);
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 4px 16px rgba(90, 158, 188, 0.12);
+}
+
+/* ============================================
+   IMAGE GALLERY — Character Section
+   (Requirement: Properly Style Image Gallery)
+   GRID 2 — Character Card Grid
+   ============================================ */
+
+#characters {
+  /* GRID 2 — Character image gallery grid */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+#characters h2 {
+  grid-column: 1 / -1;
+}
+
+#characters article {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--ice-mist);
+}
+
+#characters article:last-child {
+  border-bottom: none;
+}
+
+#characters article img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid var(--sky-blue);
+  box-shadow: 0 4px 10px rgba(90, 158, 188, 0.2);
+  display: block;
+}
+
+/* General image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Story section main image */
+#story img {
+  border: 4px solid var(--sky-blue);
+  box-shadow: 0 6px 20px rgba(46, 107, 138, 0.2);
+  border-radius: 16px;
+  max-width: 580px;
+}
+
+/* ============================================
+   CLASSES (Requirement: Create and use 3 classes)
+   ============================================ */
+
+/* Class 1: .highlight-box — used for special callout text */
+.highlight-box {
+  background-color: var(--ice-mist);
+  border-left: 5px solid var(--scarf-red);
+  border-radius: 0 10px 10px 0;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--deep-water);
+}
+
+/* Class 2: .location-card — for magical locations section */
+.location-card {
+  background: linear-gradient(135deg, var(--sky-blue) 0%, var(--ice-mist) 100%);
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--ice-shadow);
+  box-shadow: 0 2px 10px rgba(90, 158, 188, 0.15);
+}
+
+/* Class 3: .fun-fact — for fun fact callout in character lists */
+.fun-fact {
+  background-color: var(--golden-sunrise);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--penguin-black);
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+/* ============================================
+   LOCATIONS SECTION
+   ============================================ */
+
+#locations article {
+  margin-bottom: 1.5rem;
+}
+
+/* ============================================
+   ABOUT SECTION
+   ============================================ */
+
+#about a {
+  color: var(--scarf-red);
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s ease;
+}
+
+#about a:hover {
+  color: var(--deep-water);
+  text-decoration: underline;
+}
+
+/* ============================================
+   NEW CSS PROPERTY — backdrop-filter + animation
+   (Requirement: Explore a new CSS property)
+   Using: CSS @keyframes animation + filter property
+   ============================================ */
+
+/* Floating animation on header emoji — using animation (new property explored) */
+header h1 {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Glow filter effect on section h2 on hover */
+section h2 {
+  transition: filter 0.3s ease;
+}
+
+section h2:hover {
+  filter: drop-shadow(0 0 6px var(--mid-ocean));
+}
+
+/* ============================================
+   RESPONSIVE — Mobile Friendly
+   ============================================ */
+
+@media (max-width: 640px) {
+  nav ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  #characters article {
+    grid-template-columns: 1fr;
+  }
+
+  section {
+    padding: 1.2rem 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
