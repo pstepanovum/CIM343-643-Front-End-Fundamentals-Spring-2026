@@ -1,0 +1,30 @@
+<svg width="390px" height="844px" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+	<style type="text/css">
+		.st1{opacity:0.7;fill:#7C9F3D;}
+		.st3{opacity:0.8;fill:##E4E532;}
+		.st4{fill:#99CA3B;}
+	</style>
+
+	<g filter="url(#blur)">
+		<path class="st1" d="M138.5,746.1c0,57.4-24.8,107.8-82.2,107.8s-117.5-50-117.5-107.4c0-57.4,46.5-117.5,103.9-117.5
+		S138.5,688.7,138.5,746.1z"/>
+		<path class="st1" d="M460,546.2c0,62.6-50.7,104.9-113.3,104.9s-127.6-41.6-127.6-104.2c0,0,0,0,0,0
+		c-49.5-21.9-70.7-82.5-70.7-146.9c0-80.8,53.7-154.8,134.5-154.8s146.3,74,146.3,154.8c0,19.4-5,38.5-13.6,56.3
+		C442.6,476.9,460,509.5,460,546.2z"/>
+		<path class="st3" d="M403.8,449.4c0,57.5-46.6,94.2-104.1,94.2s-104.1-20.2-104.1-77.7s28.2-112.7,85.7-112.7
+		S403.8,391.9,403.8,449.4z"/>
+		<path class="st3" d="M392.9,330.3c0,22.3-18.1,36.5-40.4,36.5s-40.4-7.8-40.4-30.1s10.9-43.7,33.2-43.7S392.9,308,392.9,330.3z"/>
+		<path class="st3" d="M95,781c0,44.4-47.1,62-91.5,62s-64.7-36.3-64.7-80.6c0-44.4,20.4-69,64.7-69S95,736.6,95,781z"/>
+		<path class="st4" d="M414.3,550.6c0,42.4-27.8,80-70.1,80s-83-30.5-83-72.9c0-42.4,34.2-89.6,76.6-89.6S414.3,508.2,414.3,550.6z"/>
+	</g>
+
+	<defs>
+		<filter id="blur" x="0" y="0" width="3000" height="1350" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur"/>
+		</filter>
+	</defs>
+
+</svg>

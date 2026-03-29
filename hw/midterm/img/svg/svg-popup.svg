@@ -1,0 +1,26 @@
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+	<style type="text/css">
+		.st1{opacity:0.7;fill:#7C9F3D;}
+		.st3{opacity:0.8;fill:##E4E532;}
+		.st4{fill:#99CA3B;}
+	</style>
+
+	<g filter="url(#blur)">
+		<circle class="st1" cx="1373.8" cy="1188.6" r="305.8"/>
+		<circle class="st1" cx="966.1" cy="1091.5" r="305.8"/>
+		<circle class="st1" cx="546.2" cy="1227.4" r="305.8"/>
+
+		<circle class="st3" cx="983.1" cy="1148.6" r="208.7"/>
+		<circle class="st4" cx="1208.8" cy="1148.6" r="148"/>
+	</g>
+
+	<defs>
+		<filter id="blur" x="0" y="0" width="3000" height="1350" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="140" result="effect1_foregroundBlur"/>
+		</filter>
+	</defs>
+
+</svg>
